@@ -1,6 +1,10 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react'
 import cara from '../assets/cara.jpg'
+import MoviesSearchEngine from '../assets/projects/MoviesSearchEngine.JPG'
+import Promptopia from '../assets/projects/Promptopia.JPG'
+import Pokedex from '../assets/projects/Pokedex.JPG'
+import Portfolio from '../assets/projects/portfolio.JPG'
 /* importar screenshots de como se ven mis proyectos realizados yo digo que el de netflix y el ecomm */
 
 
@@ -21,7 +25,7 @@ const Work = () => {
         
   {/* grid item 1 */}
           <div 
-            style={{backgroundImage: `url(${cara})`}}
+            style={{backgroundImage: `url(${MoviesSearchEngine})`}}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             
             {/* hover effect */}
@@ -30,10 +34,8 @@ const Work = () => {
                 React JS Application 
               </span>
               <div className='pt-8 text-center'>
-                <a href="/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#5c5c5c] font-bold text-lg'> Demo </button>
-                </a>
-                <a href="/">
+                
+                <a href="https://github.com/GerardoPuertosSada/MovieSearchEngine">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#5c5c5c] font-bold text-lg'> Code </button>
                 </a>
               </div>
@@ -42,19 +44,17 @@ const Work = () => {
 
   {/* grid item 2 */}
           <div 
-          style={{backgroundImage: `url(${cara})`}}
+          style={{backgroundImage: `url(${Pokedex})`}}
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             
             {/* hover effect */}
             <div className='opacity-0 group-hover:opacity-100 duration-200'>
               <span className='text 2xl font-bold text-white tracking-wider'>
-                React JS Application 
+                Vanilla JavaScript Application
               </span>
               <div className='pt-8 text-center'>
-                <a href="/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#5c5c5c] font-bold text-lg'> Demo </button>
-                </a>
-                <a href="/">
+                
+                <a href="https://github.com/GerardoPuertosSada/pokedex">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#5c5c5c] font-bold text-lg'> Code </button>
                 </a>
               </div>
@@ -62,19 +62,17 @@ const Work = () => {
           </div>
 {/* grid item 3 */}
           <div 
-            style={{backgroundImage: `url(${cara})`}}
+            style={{backgroundImage: `url(${Promptopia})`}}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             
             {/* hover effect */}
             <div className='opacity-0 group-hover:opacity-100 duration-200'>
               <span className='text 2xl font-bold text-white tracking-wider'>
-                React JS Application 
+                Next.js 13 application  
               </span>
               <div className='pt-8 text-center'>
-                <a href="/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#5c5c5c] font-bold text-lg'> Demo </button>
-                </a>
-                <a href="/">
+                
+                <a href="https://github.com/GerardoPuertosSada/Promptopia">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#5c5c5c] font-bold text-lg'> Code </button>
                 </a>
               </div>
@@ -83,69 +81,63 @@ const Work = () => {
 
 {/* grid item 4 */}
           <div 
-          style={{backgroundImage: `url(${cara})`}}
+          style={{backgroundImage: `url(${Portfolio})`}}
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             
             {/* hover effect */}
-            <div className='opacity-0 group-hover:opacity-100 duration-200'>
+           <div className='opacity-0 group-hover:opacity-100 duration-200'>
               <span className='text 2xl font-bold text-white tracking-wider'>
                 React JS Application 
               </span>
               <div className='pt-8 text-center'>
-                <a href="/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#5c5c5c] font-bold text-lg'> Demo </button>
-                </a>
-                <a href="/">
+                
+                <a href="https://github.com/GerardoPuertosSada/Portfolio">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#5c5c5c] font-bold text-lg'> Code </button>
                 </a>
               </div>
             </div>
-          </div>
+          </div> 
 {/* grid item 5 */}
-          <div 
+          {/* <div 
             style={{backgroundImage: `url(${cara})`}}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-            
+             */}
             {/* hover effect */}
-            <div className='opacity-0 group-hover:opacity-100 duration-200'>
+            {/* <div className='opacity-0 group-hover:opacity-100 duration-200'>
               <span className='text 2xl font-bold text-white tracking-wider'>
                 React JS Application 
               </span>
               <div className='pt-8 text-center'>
-                <a href="/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#5c5c5c] font-bold text-lg'> Demo </button>
-                </a>
+                
                 <a href="/">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#5c5c5c] font-bold text-lg'> Code </button>
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
   {/* grid item 6 */}
-          <div 
+          {/* <div 
           style={{backgroundImage: `url(${cara})`}}
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-            
+             */}
             {/* hover effect */}
-            <div className='opacity-0 group-hover:opacity-100 duration-200'>
+            {/* <div className='opacity-0 group-hover:opacity-100 duration-200'>
               <span className='text 2xl font-bold text-white tracking-wider'>
                 React JS Application 
               </span>
               <div className='pt-8 text-center'>
-                <a href="/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#5c5c5c] font-bold text-lg'> Demo </button>
-                </a>
+                
                 <a href="/">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#5c5c5c] font-bold text-lg'> Code </button>
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
-    </div>
   );
 }
 
 export default Work
+
